@@ -1,21 +1,21 @@
-// incluir a biblioteca stdio.h, permitir o uso de entrada
-//e saida de  valores como o print
+//Inclui a biblioteca stdio.h, permite o uso de entrada
+//e saida de valores como o print
 #include<stdio.h>
-//inclui a biblioteca stdio.h 
-//pra funcões utillitarias com system
+//Inclui a biblioteca stdlib.h 
+//pra funcoes utilitarias como o system
 #include<stdlib.h>
-//o inicio da função, onde o programa começa a ser executado
+
+//Inicio da funcao, onde o programa começa a ser executado
 int main(){
 
-float num1 = 100.45;
+    float num1, num2 = 100.45;
+    // int num2 = 220;
 
-int num2 = 200;
+    //printar os numero das variaveis
+    printf("%f %d", num1, num2);
 
-//printar os  numeros das variaveis
-printf("%f %d", num1, num2);
-
-//pausa o programa, ate que o usuario presione qualquier tecla 
+    //pausa o programa, até q o usuario pressione qualquer tecla
     system("pause");
- //finaliza o programa retornado 0; indicando que deu tudo certo
+    //finaliza o programa retornando 0, indicando que deu tudo certo
     return 0;
 }
